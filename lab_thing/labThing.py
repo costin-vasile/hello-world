@@ -6,7 +6,7 @@ import roslibpy
 import time
 import uuid
 import json
-
+#done
 client = roslibpy.Ros(host='192.168.0.158', port=9090)
 client.run()
 talker0 = roslibpy.Topic(client, '/lights_1', 'std_msgs/String')
